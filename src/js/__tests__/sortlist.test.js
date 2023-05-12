@@ -20,6 +20,19 @@ test('empty value of the sort argument', () => {
   ]);
 });
 
+test('missing value of the sort argument', () => {
+  const object = {
+    name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
+  };
+  expect(orderByProps(object, ['foo'])).toEqual([
+    { key: 'attack', value: 80 },
+    { key: 'defence', value: 40 },
+    { key: 'health', value: 10 },
+    { key: 'level', value: 2 },
+    { key: 'name', value: 'мечник' },
+  ]);
+});
+
 test('correct value of the sort argument', () => {
   const object = {
     name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
