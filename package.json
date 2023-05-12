@@ -1,5 +1,5 @@
 {
-  "name": "classes-inheritance",
+  "name": "for-in",
   "version": "1.0.0",
   "description": "netology-task",
   "main": "index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wee-owl/classes-inheritance.git"
+    "url": "git+https://github.com/wee-owl/for-in.git"
   },
   "author": "wee-owl",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wee-owl/classes-inheritance/issues"
+    "url": "https://github.com/wee-owl/for-in/issues"
   },
-  "homepage": "https://github.com/wee-owl/classes-inheritance#readme",
+  "homepage": "https://github.com/wee-owl/for-in#readme",
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.8",
